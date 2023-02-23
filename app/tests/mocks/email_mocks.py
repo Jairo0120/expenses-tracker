@@ -54,9 +54,10 @@ GOOD_EMPTY_EMAIL = '''
     body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;
     margin:0 !important;}</style>
     </head>
-    <body bgcolor="#ffffff" text="#000000" style="background-color: #ffffff;
+    <body bgcolor="#ffffff" style="background-color: #ffffff;
     color: #000000; padding: 0px; -webkit-text-size-adjust:none;
-    font-size: 16px; font-family:arial,helvetica,sans-serif;"></body></html>
+    font-size: 16px; font-family:arial,helvetica,sans-serif;" text="#000000">
+    </body></html>
     '''
 
 INCOMPLETE_HTML_EMAIL = '''
@@ -122,9 +123,7 @@ GOOD_FULL_EMAIL = '''
     body {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;
     margin:0 !important;}</style>
     </head>
-    <body bgcolor="#ffffff" text="#000000" style="background-color: #ffffff;
-    color: #000000; padding: 0px; -webkit-text-size-adjust:none;
-    font-size: 16px; font-family:arial,helvetica,sans-serif;">
+    <body>
     <h1>Some header</h1>
     <div class="some-class" id="some-id">Some random content</div>
     <section>Some text for this section</section>
