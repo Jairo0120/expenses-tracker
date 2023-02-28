@@ -135,3 +135,31 @@ GOOD_FULL_EMAIL = '''
     </body>
     </html>
     '''
+
+ITAU_BAD_TABLE_STRUCTURE = '''
+    nContent-Type: text/html; charset=us-asciiContent-Transfer-Encoding:
+    7bit<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    </head>
+
+    <body>Estimado Sr(a). John Doe: <br><table><tr><td>
+    Se realiz&oacute;
+    una compra en DIDI FOOD*DL desde tu Tarjeta
+    Credito n&uacute;mero *****7651 de Ita&uacute;: </td>
+    </tr></table> <br><table><tr><td>Monto: </td>
+    <td>$29,300</td></tr><tr><td>Fecha y hora: </td><td>2023/02/14
+    18:25:12</td></tr></table> <br><br>Cualquier inquietud,
+    comun&iacute;cate con
+    nuestro N&uacute;mero &Uacute;nico por ciudad:<table width="660px"><tr><td>
+    Bogot&aacute; </td><td>581 8181</td><td>C/gena </td><td>693 1818
+    </td><td>Medell&iacute;n </td><td> 604 1818</td><td>Cali </td>
+    <td> 486 1818</td></tr><tr><td>B/manga </td><td> 697
+        1818 </td><td>Pereira </td><td> 340 1818</td><td>B/quilla </td>
+    <td> 385 1818</td><td>Manizales </td><td> 887 9818</td></tr>
+    </table><table width="660px"><tr align="center"><td>Otras ciudades 018000
+            512633</td></tr></table> <br><small>Este mensaje ha sido enviado
+    autom&aacute;ticamente, por favor no respondas
+    a esta direcci&oacute;n de correo
+    electr&oacute;nico.</small></body>
+    '''
