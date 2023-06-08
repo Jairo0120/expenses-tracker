@@ -192,7 +192,6 @@ ITAU_GOOD_TABLE_STRUCTURE = '''
     electr&oacute;nico.</small></body>
     '''
 
-
 ITAU_BAD_EXPENSE_VALUE = '''
     nContent-Type: text/html; charset=us-asciiContent-Transfer-Encoding:
     7bit<html>
@@ -221,7 +220,6 @@ ITAU_BAD_EXPENSE_VALUE = '''
     electr&oacute;nico.</small></body>
     '''
 
-
 ITAU_BAD_DATE_VALUE = '''
     nContent-Type: text/html; charset=us-asciiContent-Transfer-Encoding:
     7bit<html>
@@ -249,3 +247,203 @@ ITAU_BAD_DATE_VALUE = '''
     a esta direcci&oacute;n de correo
     electr&oacute;nico.</small></body>
     '''
+
+BANCOLOMBIA_PSE_GOOD = '''
+    <table class="mce-item-table"
+        data-mce-style="width: 531.54px; margin-left: auto;
+        margin-right: auto;" style="width: 531.54px; margin-left: auto;
+        margin-right: auto;">
+        <tbody>
+            <tr data-mce-style="height: 29px;" style="height: 29px;">
+                <td data-mce-style="text-align: center; width: 526.54px;
+                height: 29px;" style="text-align: center; width: 526.54px;
+                height: 29px;">
+                <span data-mce-style="font-family: helvetica, arial,
+                sans-serif; font-size: 14pt; color: #3366ff;"
+                        style="font-family: helvetica, arial, sans-serif;
+                        font-size: 18pt; color: #105ea8;font-weight: bold;">
+                        ¡Hola, John Doe</span></td>
+            </tr>
+            <tr data-mce-style="height: 190.173px;" style="height: 190.173px;">
+                <td data-mce-style="width: 526.54px; height: 190.173px;"
+                    style="width: 526.54px; height: 190.173px;"><br /><b
+                        data-mce-style="color: #0059a4; font-family: Roboto,
+                        sans-serif; font-size: 16px; text-align: center;"
+                        style="color: #0059a4; font-family: Roboto,
+                        sans-serif; font-size: 16px; text-align: center;"><span
+                            color="#0059a4" face="Roboto, sans-serif"><b><span
+                                    data-mce-style="font-family: helvetica,
+                                    arial, sans-serif;"
+                                    style="font-family: helvetica, arial,
+                                    sans-serif;"><span
+                                        data-mce-style="color: #999999;
+                                        font-size: 14pt;"
+                                        style="color: #999999;
+                                        font-size: 14pt;">Gracias por
+                                        utilizar los servicios de
+                                        BANCOLOMBIA\xa0</span><span
+                                        data-mce-style="color: #999999;
+                                        font-size: 14pt;"
+                                        style="color: #999999;
+                                        font-size: 14pt;">y
+                                        PSE. los siguientes son los datos de tu
+                                        transacción:</span></span></b></span>
+                                        </b><br /><br /><span
+                        data-mce-style="font-size: 12pt;
+                        font-family: helvetica, arial, sans-serif;"
+                        style="font-size: 12pt; font-family: helvetica, arial,
+                        sans-serif;"><span
+                            color="#0059a4" face="Roboto, sans-serif"><span
+                                data-mce-style="color: #999999;"
+                                style="color: #999999;">Estado de
+                                la Transacción: Aprobada</span></span><br />
+                                <span color="#0059a4"
+                            face="Roboto, sans-serif">
+                            <span data-mce-style="color: #999999;"
+                                style="color: #999999;">CUS: 1975974114</span>
+                                <br /><span
+                                data-mce-style="color: #999999;"
+                                style="color: #999999;">Empresa:
+                                CONSORCIO EMCALI</span><br />
+                                <span data-mce-style="color: #999999;"
+                                style="color: #999999;">Descripción:\xa0</span>
+                                </span><span
+                            data-mce-style="color: #999999;"
+                            style="color: #999999;">Factura
+                            Servicios Publicos<br />Valor de la
+                            Transacción: $ 257.455<br />Fecha de
+                            Transacción: 17/03/2023</span></span></td>
+            </tr>
+        </tbody>
+    </table>
+'''
+
+BANCOLOMBIA_PSE_INCOMPLETE_DATA = '''
+    <table class="mce-item-table"
+        data-mce-style="width: 531.54px; margin-left: auto;
+        margin-right: auto;" style="width: 531.54px; margin-left: auto;
+        margin-right: auto;">
+        <tbody>
+            <tr data-mce-style="height: 29px;" style="height: 29px;">
+                <td data-mce-style="text-align: center; width: 526.54px;
+                height: 29px;" style="text-align: center; width: 526.54px;
+                height: 29px;">
+                <span data-mce-style="font-family: helvetica, arial,
+                sans-serif; font-size: 14pt; color: #3366ff;"
+                        style="font-family: helvetica, arial, sans-serif;
+                        font-size: 18pt; color: #105ea8;font-weight: bold;">
+                        ¡Hola, John Doe</span></td>
+            </tr>
+            <tr data-mce-style="height: 190.173px;" style="height: 190.173px;">
+                <td data-mce-style="width: 526.54px; height: 190.173px;"
+                    style="width: 526.54px; height: 190.173px;"><br /><b
+                        data-mce-style="color: #0059a4; font-family: Roboto,
+                        sans-serif; font-size: 16px; text-align: center;"
+                        style="color: #0059a4; font-family: Roboto,
+                        sans-serif; font-size: 16px; text-align: center;"><span
+                            color="#0059a4" face="Roboto, sans-serif"><b><span
+                                    data-mce-style="font-family: helvetica,
+                                    arial, sans-serif;"
+                                    style="font-family: helvetica, arial,
+                                    sans-serif;"><span
+                                        data-mce-style="color: #999999;
+                                        font-size: 14pt;"
+                                        style="color: #999999;
+                                        font-size: 14pt;">Gracias por
+                                        utilizar los servicios de
+                                        BANCOLOMBIA\xa0</span><span
+                                        data-mce-style="color: #999999;
+                                        font-size: 14pt;"
+                                        style="color: #999999;
+                                        font-size: 14pt;">y
+                                        PSE. los siguientes son los datos de tu
+                                        transacción:</span></span></b></span>
+                                        </b><br /><br /><span
+                        data-mce-style="font-size: 12pt;
+                        font-family: helvetica, arial, sans-serif;"
+                        style="font-size: 12pt; font-family: helvetica, arial,
+                        sans-serif;"><span
+                            color="#0059a4" face="Roboto, sans-serif"><span
+                                data-mce-style="color: #999999;"
+                                style="color: #999999;">Estado de
+                                la Transacción: Aprobada</span></span><br />
+                                <span color="#0059a4"
+                            face="Roboto, sans-serif">
+                            <span data-mce-style="color: #999999;"
+                                style="color: #999999;">CUS: 1975974114</span>
+                                <br /><span
+                                data-mce-style="color: #999999;"
+                                style="color: #999999;">Empresa:
+                                CONSORCIO EMCALI</span><br />
+                                <span data-mce-style="color: #999999;"
+                                style="color: #999999;">Descripción:\xa0</span>
+                                </span><span
+                            data-mce-style="color: #999999;"
+                            style="color: #999999;">Factura
+                            Servicios Publicos<br />Fecha de
+                            Transacción: 17/03/2023</span></span></td>
+            </tr>
+        </tbody>
+    </table>
+'''
+
+BANCOLOMBIA_PSE_REJECTED = '''
+    <table class="mce-item-table" data-mce-style="width: 700px;
+    margin-left: auto; margin-right: auto;"
+    style="width: 700px; margin-left: auto; margin-right: auto;">\n<tbody>\n<tr
+    data-mce-style="height: 340.088px;" style="height: 340.088px;">\n<td
+    data-mce-style="width: 10.7244px; height: 340.088px;"
+    style="width: 10.7244px; height: 340.088px;">\n<img alt="" data-mce-=""
+    data-mce-style="display: block; margin-left: auto; margin-right: auto;"
+    height="341"
+    src="https://www.psepagos.co/images_ticketoffice/email/img1.jpg"
+    style="display: block; margin-left: auto;\n margin-right: auto;"
+    width="700" /></td>\n</tr>\n<tr data-mce-style="height: 235px;"
+    style="height: 235px;">\n<td
+    data-mce-style="width: 10.7244px; height: 235px;" style="width: 10.7244px;
+    height: 235px;">\n
+    <table class="mce-item-table"
+    data-mce-style="width: 531.54px; margin-left: auto; margin-right: auto;"
+    style="width: 531.54px; margin-left: auto; margin-right: auto;">\n<tbody>
+    <tr data-mce-style="height: 29px;" style="height: 29px;">\n<td
+    data-mce-style="text-align: center; width: 526.54px; height: 29px;"
+    style="text-align: center; width: 526.54px; height: 29px;">\n<span
+    data-mce-style="font-family: helvetica, arial, sans-serif; font-size: 14pt;
+    color: #3366ff;"
+    style="font-family: helvetica, arial, sans-serif; font-size: 18pt;
+    color: #105ea8;\n font-weight: bold;">¡Hola,
+    John Doe</span></td>\n</tr>\n<tr
+    data-mce-style="height: 190.173px;" style="height: 190.173px;">\n<td
+    data-mce-style="width: 526.54px; height: 190.173px;"
+    style="width: 526.54px; height: 190.173px;">\n<br />\n<b
+    data-mce-style="color: #0059a4; font-family: Roboto, sans-serif;
+    font-size: 16px; text-align: center;"
+    style="color: #0059a4; font-family: Roboto, sans-serif; font-size: 16px;
+    text-align: center;"><span
+    color="#0059a4" face="Roboto, sans-serif"><b><span
+    data-mce-style="font-family: helvetica, arial, sans-serif;"
+    style="font-family: helvetica, arial, sans-serif;"><span
+    data-mce-style="color: #999999; font-size: 14pt;"
+    style="color: #999999; font-size: 14pt;">Gracias por
+    utilizar los servicios de BANCOLOMBIA\xa0</span><span
+    data-mce-style="color: #999999; font-size: 14pt;"
+    style="color: #999999;\n font-size: 14pt;">y
+    PSE. los siguientes son los datos de tu
+    transacción:</span></span></b></span></b><br />\n<br />\n<span
+    data-mce-style="font-size: 12pt; font-family: helvetica, arial,
+    sans-serif;"
+    style="font-size: 12pt; font-family: helvetica, arial, sans-serif;"><span
+    color="#0059a4" face="Roboto, sans-serif"><span
+    data-mce-style="color: #999999;" style="color: #999999;">Estado de
+    la Transacción: Rechazada</span></span><br />\n<span color="#0059a4"
+    face="Roboto, sans-serif"><span data-mce-style="color: #999999;"
+    style="color: #999999;">CUS: 2110147747</span><br />\n<span
+    data-mce-style="color: #999999;" style="color: #999999;">Empresa:
+    BANCO DE CREDITO DECOLOMBIA</span><br />\n<span
+    data-mce-style="color: #999999;"
+    style="color: #999999;">Descripción:\xa0</span></span><span
+    data-mce-style="color: #999999;" style="color: #999999;">Otro
+    valor<br />\n\t\t\t\t\t\t\t\t\t\t\tValor de la Transacción: $
+    223.608<br />\n\t\t\t\t\t\t\t\t\t\t\tFecha de Transacción:
+    31/05/2023</span></span></td>\n</tr>\n</tbody>\n</table>
+'''
